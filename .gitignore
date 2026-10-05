@@ -1,0 +1,29 @@
+# Python virtual environment
+venv/
+.venv/
+
+# Dataset files
+data/raw/
+*.h5
+*.hdf5
+*.zip
+
+# Trained models
+outputs/models/
+*.pth
+*.pt
+*.onnx
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# OS files
+Thumbs.db
+.DS_Store
