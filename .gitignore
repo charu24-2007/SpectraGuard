@@ -9,9 +9,6 @@ data/raw/
 *.zip
 
 # Trained models
-outputs/models/
-*.pth
-*.pt
 *.onnx
 
 # Python cache

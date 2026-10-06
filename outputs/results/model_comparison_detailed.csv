@@ -1,0 +1,4 @@
+Model,Test Accuracy,Precision (Macro),Recall (Macro),F1-Score (Macro),Parameters,Dataset
+CNN,0.664722,0.691578,0.664722,0.643075,419992,RadioML2018 (SNR >= 5 dB)
+ResNet,0.899893,0.908815,0.899893,0.89824,7356184,RadioML2018 (SNR >= 5 dB)
+SpectraNet,0.888974,0.896694,0.888974,0.884294,579288,RadioML2018 (SNR >= 5 dB)
