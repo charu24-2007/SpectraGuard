@@ -13,14 +13,14 @@ The dataset contains 24 digital and analog modulation classes with RF/IQ samples
 
 Additional Datasets / Data Sources
 
-TorchSig / Sig53 - RF signal generation, classification and wideband experiments
-ORACLE - RF/device fingerprinting research
-Synthetic interference - generated specifically for controlled jamming/interference detection experiments
-TEXBAT - optional future GNSS spoofing research
+1. TorchSig / Sig53 - RF signal generation, classification and wideband experiments
+2. ORACLE - RF/device fingerprinting research
+3. Synthetic interference - generated specifically for controlled jamming/interference detection experiments
+4. TEXBAT - optional future GNSS spoofing research
 
 Research Papers
 
-| # | Title | Source | Link |
+| S.No | Title | Source | Link |
 |---|-------|--------|------|
 | 1 | Over-the-Air Deep Learning Based Radio Signal Classification | IEEE Xplore | https://ieeexplore.ieee.org/document/8267032/ |
 | 2 | A Deep Learning Framework for Signal Detection and Modulation Classification | Sensors | https://www.mdpi.com/1424-8220/19/18/4042 |
