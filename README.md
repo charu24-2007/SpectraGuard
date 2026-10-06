@@ -6,8 +6,8 @@ SpectraGuard is a passive, AI-powered Electronic Warfare (EW) awareness and RF s
 
 Dataset
 
-RadioML 2018.01A - https://www.deepsig.ai/datasets/
-Kaggle Mirror - https://www.kaggle.com/datasets/pinxau1000/radioml2018
+1. RadioML 2018.01A - https://www.deepsig.ai/datasets/
+2. Kaggle Mirror - https://www.kaggle.com/datasets/pinxau1000/radioml2018
 
 The dataset contains 24 digital and analog modulation classes with RF/IQ samples across multiple signal-to-noise ratio (SNR) conditions.
 
