@@ -1,26 +1,54 @@
-# Python virtual environment
+# ─── Python ──────────────────────────────────────────────────────────────────
 venv/
 .venv/
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
 
-# Dataset files
+# ─── Dataset (too large for version control) ──────────────────────────────────
 data/raw/
 *.h5
 *.hdf5
 *.zip
 
-# Trained models
+# ─── Trained models (intentionally tracked via outputs/models/) ───────────────
+# Keep .pth files tracked — they are the trained outputs of the experiment.
+# Exclude only export formats not needed in the repo:
 *.onnx
 
-# Python cache
-__pycache__/
-*.pyc
+# ─── NumPy arrays (generated, can be regenerated) ────────────────────────────
+*.npy
 
-# Jupyter
+# ─── SQLite database (runtime state, not source code) ────────────────────────
+backend/database/*.db
+
+# ─── Jupyter ──────────────────────────────────────────────────────────────────
 .ipynb_checkpoints/
 
-# VS Code
-.vscode/
+# ─── Node / Frontend ──────────────────────────────────────────────────────────
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
 
-# OS files
+# ─── Environment files ────────────────────────────────────────────────────────
+.env
+.env.local
+.env.production
+
+# ─── IDE / OS ─────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
 Thumbs.db
 .DS_Store
+*.swp
+*.swo
+
+# ─── Temporary Scripts ────────────────────────────────────────────────────────
+patch*.py
+fix_*.py
+# Runtime state
+backend/active_session.json
+backend/random_sequence_state.json

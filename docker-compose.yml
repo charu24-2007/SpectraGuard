@@ -1,0 +1,33 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    ports:
+      - "8000:8000"
+    environment:
+      - HOST=0.0.0.0
+      - PORT=8000
+      - DATASET_PATH=/app/data/raw/RadioML2018/GOLD_XYZ_OSC.0001_1024.hdf5
+      - MODELS_DIR=/app/outputs/models
+      - CORS_ORIGINS=http://localhost:5173,http://localhost:80,http://localhost:3000
+      - SPECTRAGUARD_DB_PATH=/app/backend/database/spectraguard.db
+    volumes:
+      # Mount dataset and models as read-only volumes (never baked into image layers)
+      - ./data:/app/data:ro
+      - ./outputs/models:/app/outputs/models:ro
+      - spectraguard_data:/app/backend/database
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    ports:
+      - "5173:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+volumes:
+  spectraguard_data:
