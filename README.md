@@ -1,4 +1,4 @@
-# SpectraGuard: AI-Assisted Passive RF Spectrum Intelligence Platform
+# SpectraGuard: AI Powered RF Modulation Classification for Spectrum Monitoring
 
 SpectraGuard is a passive, defense-oriented RF spectrum analysis and electronic-warfare awareness platform. It analyzes raw in-phase/quadrature (I/Q) radio signals, classifies modulation schemes using deep learning, extracts digital signal processing (DSP) features, and provides explainable interference indicators for human review.
 
