@@ -1,11 +1,5 @@
 # SpectraGuard: AI-Assisted Passive RF Spectrum Intelligence Platform
 
-[![Python](https://img.shields.io/badge/Python-3.12-blue.svg)](https://python.org)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.115-009688.svg)](https://fastapi.tiangolo.com)
-[![PyTorch](https://img.shields.io/badge/PyTorch-2.2+-ee4c2c.svg)](https://pytorch.org)
-[![React](https://img.shields.io/badge/React-18-61dafb.svg)](https://react.dev)
-[![Vite](https://img.shields.io/badge/Vite-8.3-646cff.svg)](https://vitejs.dev)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 SpectraGuard is a passive, defense-oriented RF spectrum analysis and electronic-warfare awareness platform. It connects directly to raw in-phase/quadrature (I/Q) radio frequency signal data, performs automated modulation classification via deep neural networks, calculates deterministic digital signal processing (DSP) features, and provides explainable, rule-based interference analysis for human-in-the-loop technical evaluation.
 
